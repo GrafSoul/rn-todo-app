@@ -1,2 +1,3 @@
-# rn-todo-app
+# TODO App
+
 Example of an app for Android and iOs made using the React Native framework
