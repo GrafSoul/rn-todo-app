@@ -16,8 +16,8 @@ export const TodoScreen = () => {
 
     const todo = todos.find((t) => t.id === todoId);
 
-    const saveHandler = (title) => {
-        updateTodo(todo.id, title);
+    const saveHandler = async (title) => {
+        await updateTodo(todo.id, title);
         setModal(false);
     };
 
@@ -69,7 +69,6 @@ const styles = StyleSheet.create({
         padding: 15,
     },
     button: {
-        // width: Dimensions.get('window').width / 3
         width: Dimensions.get('window').width > 400 ? 150 : 100,
     },
     title: {
