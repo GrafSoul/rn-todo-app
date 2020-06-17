@@ -6,10 +6,10 @@ Example of an app for Android and iOs made using the React Native framework base
 
 ```
 // Clone the repository.
-git clone
+git clone https://github.com/GrafSoul/rn-todo-app.git
 
 // Go to the project folder.
-cd udacity-project-four
+cd rn-todo-app
 
 // Installing npm modules.
 npm install
