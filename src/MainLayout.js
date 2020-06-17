@@ -11,7 +11,7 @@ export const MainLayout = () => {
 
     return (
         <View style={styles.wrapper}>
-            <Navbar title="Todo App!" />
+            <Navbar title="Todo" />
             <View style={styles.container}>
                 {todoId ? <TodoScreen /> : <MainScreen />}
             </View>
