@@ -38,4 +38,4 @@ yarn run web
 
 ```
 
-© 2020 | TODO App.
+2020 | TODO App.
